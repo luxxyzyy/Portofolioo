@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <h1>Engga Ardhani Saputra</h1>
+    <p id="subtitle"></p>
+
+    <div class="lang-switch">
+      <button onclick="setLang('id')">ID</button>
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('jv')">JW</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="card">
+  <h2 id="about-title"></h2>
+  <p id="about-text"></p>
+</section>
+
+<section class="card">
+  <h2 id="skills-title"></h2>
+  <ul class="skills">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Node.js (Basic)</li>
+    <li>Git & GitHub</li>
+    <li>REST API (Basic)</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2 id="projects-title"></h2>
+  <div class="project" id="project-1"></div>
+  <div class="project" id="project-2"></div>
+</section>
+
+<section class="card">
+  <h2 id="contact-title"></h2>
+
+  <form id="contact-form" class="contact-form">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <textarea id="message" placeholder="Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p id="status"></p>
+</section>
+
+
+</main>
+
+<footer>
+  © 2026 Engga Ardhani Saputra — Software Engineer
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
